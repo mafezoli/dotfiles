@@ -96,6 +96,10 @@ super + ctrl + {h,j,k,l}
 super + ctrl + {1-9}
 	bspc node -o 0.{1-9}
 
+# print with flameshot
+Print
+	flameshot gui
+
 # cancel the preselection for the focused node
 super + ctrl + space
 	bspc node -p cancel
