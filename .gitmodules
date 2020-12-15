@@ -1,3 +1,6 @@
 [submodule "nvim/plugged/blood-moon"]
 	path = nvim/plugged/blood-moon
 	url = https://github.com/dguo/blood-moon
+[submodule "nvim/plugged/vim-airline"]
+	path = nvim/plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline
