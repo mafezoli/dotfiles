@@ -1,0 +1,3 @@
+[submodule "nvim/plugged/blood-moon"]
+	path = nvim/plugged/blood-moon
+	url = https://github.com/dguo/blood-moon
