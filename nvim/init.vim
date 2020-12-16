@@ -9,6 +9,10 @@ Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 set number
+
+set tabstop=4
+autocmd Filetype js setlocal tabstop=2
+
 map <C-n> : NERDTreeToggle<CR>
 
 let g:airline_powerline_fonts=1
