@@ -10,3 +10,6 @@
 [submodule "nvim/plugged/vim-gitgutter"]
 	path = nvim/plugged/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "nvim/plugged/vim-airline-themes"]
+	path = nvim/plugged/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
