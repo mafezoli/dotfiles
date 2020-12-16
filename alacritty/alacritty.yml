@@ -7,7 +7,7 @@ font:
 # Colors (Blood Moon)
 colors:
   primary:
-    background: '0x10100E'
+    background: '0x0c0c0d'
     foreground: '0xC6C6C4'
 
   normal:
