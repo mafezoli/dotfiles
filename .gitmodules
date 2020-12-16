@@ -7,3 +7,6 @@
 [submodule "nvim/plugged/nerdtree"]
 	path = nvim/plugged/nerdtree
 	url = https://github.com/preservim/nerdtree
+[submodule "nvim/plugged/vim-gitgutter"]
+	path = nvim/plugged/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
