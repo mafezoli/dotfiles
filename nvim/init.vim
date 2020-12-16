@@ -6,4 +6,5 @@ Plug 'preservim/nerdtree'
 
 call plug#end()
 
+set number
 map <C-n> : NERDTreeToggle<CR>
