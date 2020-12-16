@@ -11,7 +11,8 @@ call plug#end()
 set number
 
 set tabstop=4
-autocmd Filetype js setlocal tabstop=2
+set shiftwidth=4
+set expandtab
 
 map <C-n> : NERDTreeToggle<CR>
 
