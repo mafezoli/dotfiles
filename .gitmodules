@@ -13,6 +13,3 @@
 [submodule "nvim/plugged/vim-airline-themes"]
 	path = nvim/plugged/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
-[submodule "zsh/.oh-my-zsh"]
-	path = zsh/.oh-my-zsh
-	url = https://github.com/ohmyzsh/ohmyzsh
