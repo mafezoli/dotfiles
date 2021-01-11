@@ -30,9 +30,9 @@ alert = #bd2c40
 [bar/pimpbar]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 98%
-height = 27
+height = 25
 offset-x = 1%
-;offset-y = 1%
+offset-y = 1%
 fixed-center = false
 
 background = ${colors.background}
