@@ -29,9 +29,9 @@ alert = #bd2c40
 
 [bar/pimpbar]
 ;monitor = ${env:MONITOR:HDMI-1}
-width = 100%
+width = 98%
 height = 27
-;offset-x = 1%
+offset-x = 1%
 ;offset-y = 1%
 fixed-center = false
 
@@ -42,7 +42,7 @@ line-size = 3
 line-color = #f00
 
 padding-left = 0
-padding-right = 2
+padding-right = 0
 
 module-margin-left = 1
 module-margin-right = 2
