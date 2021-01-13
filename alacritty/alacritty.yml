@@ -8,25 +8,25 @@ font:
 colors:
   primary:
     background: '0x0c0c0d'
-    foreground: '0xC6C6C4'
+    foreground: '0xDFDFDF'
 
   normal:
-    black:   '0x10100E'
+    black:   '0x2F312E'
     red:     '0xC40233'
     green:   '0x009F6B'
     yellow:  '0xFFD700'
-    blue:    '0x0087BD'
+    blue:    '0xB2C0C0'
     magenta: '0x9A4EAE'
-    cyan:    '0x20B2AA'
-    white:   '0xC6C6C4'
+    cyan:    '0x7AB0A3'
+    white:   '0xAEB5AE'
 
   bright:
-    black:   '0x696969'
+    black:   '0x4F5450'
     red:     '0xFF2400'
     green:   '0x03C03C'
     yellow:  '0xFDFF00'
-    blue:    '0x007FFF'
+    blue:    '0xCBD4D4'
     magenta: '0xFF1493'
-    cyan:    '0x00CCCC'
-    white:   '0xFFFAFA'
+    cyan:    '0x91C7BB'
+    white:   '0xD9DED8'
 
