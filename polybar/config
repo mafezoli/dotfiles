@@ -236,7 +236,7 @@ format-volume = <label-volume>
 label-volume =   %percentage%%
 label-volume-foreground = ${root.foreground}
 
-label-muted =   %percentage%
+label-muted =   0%
 label-muted-foreground = ${colors.foreground}
 
 bar-volume-width = 10
@@ -290,7 +290,7 @@ battery = BAT1
 adapter = ADP1
 full-at = 98
 
-format-charging = <ramp-capacity> <label-charging>
+format-charging = <ramp-capacity>  <label-charging>
 ;format-charging-underline = #ffb52a
 
 format-discharging = <ramp-capacity> <label-discharging>
