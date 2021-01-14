@@ -30,7 +30,7 @@ alert = #bd2c40
 [bar/pimpbar]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 98%
-height = 25
+height = 27
 offset-x = 1%
 offset-y = 1%
 fixed-center = false
@@ -48,12 +48,15 @@ module-margin-left = 1
 module-margin-right = 2
 
 font-0 = fixed:pixelsize=10;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:pixelsize=10;1
+font-1 = "Font Awesome 5 Free:style=Regular:pixelsize=10"
+font-2 = "Font Awesome 5 Free:style=Solid:pixelsize=10"
+font-3 = "Font Awesome 5 Brands:pixelsize=10"
+font-4 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-5 = siji:pixelsize=10;1
 
 modules-left = bspwm
 modules-center = mpd
-modules-right = xbacklight pulseaudio filesystem memory cpu battery temperature wlan eth date powermenu
+modules-right = xbacklight pulseaudio temperature battery wlan eth date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -179,7 +182,7 @@ interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
 ;format-connected-underline = #9f78e1
-label-connected = WIFI-%essid%
+label-connected =   %essid%
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
@@ -202,7 +205,7 @@ interval = 3.0
 ;format-connected-underline = #55aa55
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground}
-label-connected = ETH-%local_ip%
+label-connected =    %local_ip%
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
@@ -217,23 +220,23 @@ interval = 5
 date =
 date-alt = " %Y-%m-%d"
 
-time = %H:%M
-time-alt = %H:%M:%S
+time = 04:20
+time-alt = 04:20:00
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #0a6cf5
 
-label = %date% %time%
+label =  %date% %time%
 
 [module/pulseaudio]
 type = internal/pulseaudio
 
 format-volume = <label-volume>
-label-volume = VOL-%percentage%%
+label-volume =   %percentage%%
 label-volume-foreground = ${root.foreground}
 
-label-muted = 🔇 Muted
+label-muted =   %percentage%
 label-muted-foreground = ${colors.foreground}
 
 bar-volume-width = 10
@@ -287,10 +290,10 @@ battery = BAT1
 adapter = ADP1
 full-at = 98
 
-format-charging = BAT-<label-charging>
+format-charging =   <label-charging>
 ;format-charging-underline = #ffb52a
 
-format-discharging = BAT-<label-discharging>
+format-discharging =   <label-discharging>
 ;format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "
@@ -324,8 +327,8 @@ format = <ramp> <label>
 format-warn = <ramp> <label-warn>
 ;format-warn-underline = ${self.format-underline}
 
-label = TEMP-%temperature-c%
-label-warn = TEMP-%temperature-c%
+label =   %temperature-c%
+label-warn =   %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
 ramp-0 = 
