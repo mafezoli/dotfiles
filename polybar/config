@@ -296,7 +296,9 @@ format-charging = <ramp-capacity>  <label-charging>
 format-discharging = <ramp-capacity>  <label-discharging>
 ;format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = " "
+format-full-prefix =   
+format-full-prefix-padding-right = 2
+format-full-prefix-padding-left = 1
 format-full-prefix-foreground = ${colors.foreground}
 ;format-full-underline = ${self.format-charging-underline}
 
