@@ -13,7 +13,7 @@ Dotfiles for my bspwm setup on Fedora Linux.
 | Screenshot   | [flameshot (GitHub)](https://github.com/flameshot-org/flameshot)   | Powerful yet simple to use screenshot software.      |
 | Fetch    | [pfetch (GitHub)](https://github.com/dylanaraps/pfetch)   | A pretty system information tool written in POSIX sh.   |
 | Music Player    | [mpd (Website)](https://www.musicpd.org/)   | A flexible, powerful, server-side application for playing music.   |
-| MPD Client    | [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)   | Featureful ncurses based MPD client inspired by ncmpc.   |
+| MPD Client    | [ncmpcpp (GitHub)](https://github.com/ncmpcpp/ncmpcpp)   | Featureful ncurses based MPD client inspired by ncmpc.   |
 | Code Editor    | [nvim (GitHub)](https://github.com/neovim/neovim)   | Vim-fork focused on extensibility and usability.   |
 | Image Viewer    | [feh (Website)](https://feh.finalrewind.org/)   | A fast and light image viewer aimed mostly at console users.   |
 
