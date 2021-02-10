@@ -5,7 +5,7 @@ Dotfiles for my bspwm setup on Fedora Linux.
 
 | Tool    | Docs    | Description    |
 |---------------- | --------------- | --------------- |
-| Menu    | [dmenu (Website)](https://tools.suckless.org/dmenu/)    | dmenu is a dynamic menu for X, originally designed for dwm.    |
+| Menu    | [dmenu (Website)](https://tools.suckless.org/dmenu/)    | Dynamic menu for X, originally designed for dwm.    |
 | TWM    | [bspwm (GitHub)](https://github.com/baskerville/bspwm)    | A tiling window manager based on binary space partitioning.     |
 | Hotkey Daemon   | [sxhkd (GitHub)](https://github.com/baskerville/sxhkd)  | X daemon that reacts to input events by executing commands.   |
 | Bar   | [polybar (GitHub)](https://github.com/polybar/polybar)   | A fast and easy-to-use status bar.    |
