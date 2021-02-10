@@ -3,7 +3,7 @@ Dotfiles for my bspwm setup on Fedora Linux.
 
 ## Setup
 
-| Tool    | Link    | Description    |
+| Tool    | Docs    | Description    |
 |---------------- | --------------- | --------------- |
 | dmenu    | [dmenu](https://tools.suckless.org/dmenu/)    | dmenu is a dynamic menu for X, originally designed for dwm.    |
 | bspwm    | [bspwm](https://github.com/baskerville/bspwm)    | A tiling window manager based on binary space partitioning.     |
