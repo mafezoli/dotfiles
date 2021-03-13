@@ -3,7 +3,7 @@ Dotfiles for my bspwm setup on Artix Linux.
 
 ## Setup
 
-| Tool    | Docs    | Description    |
+| Module    | Tool    | Description    |
 |---------------- | --------------- | --------------- |
 | Menu    | [dmenu (Website)](https://tools.suckless.org/dmenu/)    | Dynamic menu for X, originally designed for dwm.    |
 | TWM    | [bspwm (GitHub)](https://github.com/baskerville/bspwm)    | A tiling window manager based on binary space partitioning.     |
