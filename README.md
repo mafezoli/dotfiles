@@ -14,7 +14,7 @@ Dotfiles for my bspwm setup on Artix Linux.
 | Fetch    | [pfetch (GitHub)](https://github.com/dylanaraps/pfetch)   | A pretty system information tool written in POSIX sh.   |
 | Music Player    | [mpd (Website)](https://www.musicpd.org/)   | A flexible, powerful, server-side application for playing music.   |
 | MPD Client    | [ncmpcpp (GitHub)](https://github.com/ncmpcpp/ncmpcpp)   | Featureful ncurses based MPD client inspired by ncmpc.   |
-| Code Editor    | [nvim (GitHub)](https://github.com/neovim/neovim)   | Vim-fork focused on extensibility and usability.   |
+| Code Editor    | [vim (Website)](https://www.vim.org/)   | Highly configurable text editor.   |
 | Image Viewer    | [feh (Website)](https://feh.finalrewind.org/)   | A fast and light image viewer aimed mostly at console users.   |
 
 ## Preview
