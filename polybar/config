@@ -30,7 +30,7 @@ alert = #bd2c40
 [bar/pimpbar]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 98%
-height = 27
+height = 34
 offset-x = 1%
 offset-y = 1%
 fixed-center = false
@@ -45,9 +45,9 @@ padding-left = 0
 padding-right = 0
 
 module-margin-left = 1
-module-margin-right = 2
+module-margin-right = 1
 
-font-0 = "Inconsolata CondensedBlack:pixelsize=11;1"
+font-0 = "Inconsolata Black:pixelsize=11;1"
 font-1 = "Font Awesome 5 Free:style=Regular:pixelsize=10"
 font-2 = "Font Awesome 5 Free:style=Solid:pixelsize=10"
 font-3 = "Font Awesome 5 Brands:pixelsize=10"
@@ -183,7 +183,7 @@ interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
 ;format-connected-underline = #9f78e1
-label-connected =   %essid%
+label-connected =   CON
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
