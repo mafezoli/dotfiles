@@ -45,7 +45,7 @@ padding-left = 0
 padding-right = 0
 
 module-margin-left = 1
-module-margin-right = 2
+module-margin-right = 1
 
 font-0 = "Inconsolata Black:pixelsize=11;1"
 font-1 = "Font Awesome 5 Free:style=Regular:pixelsize=10"
@@ -59,7 +59,7 @@ modules-left = bspwm
 modules-center = mpd
 modules-right = xbacklight pulseaudio temperature battery wlan eth date powermenu
 
-tray-position = right
+;tray-position = right
 tray-padding = 2
 ;tray-background = #0063ff
 
@@ -183,7 +183,7 @@ interval = 3.0
 
 format-connected = <label-connected>
 ;format-connected-underline = #9f78e1
-label-connected =   CON
+label-connected =   CONN
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
