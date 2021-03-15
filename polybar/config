@@ -53,6 +53,7 @@ font-2 = "Font Awesome 5 Free:style=Solid:pixelsize=10"
 font-3 = "Font Awesome 5 Brands:pixelsize=10"
 font-4 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-5 = siji:pixelsize=10;1
+font-6 = "Togalite medium:pixelsize=10;1"
 
 modules-left = bspwm
 modules-center = mpd
