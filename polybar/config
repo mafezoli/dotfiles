@@ -45,7 +45,7 @@ padding-left = 0
 padding-right = 0
 
 module-margin-left = 1
-module-margin-right = 1
+module-margin-right = 2
 
 font-0 = "Inconsolata Black:pixelsize=11;1"
 font-1 = "Font Awesome 5 Free:style=Regular:pixelsize=10"
