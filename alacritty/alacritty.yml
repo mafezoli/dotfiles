@@ -1,7 +1,7 @@
 font:
   size: 11
   normal:
-    family: Hack
+    family: Inconsolata Black
 
 colors:
   primary:
