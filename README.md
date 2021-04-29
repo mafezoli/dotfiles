@@ -18,4 +18,4 @@ Dotfiles for my bspwm setup on Artix Linux.
 | Image Viewer    | [feh (Website)](https://feh.finalrewind.org/)   | A fast and light image viewer aimed mostly at console users.   |
 
 ## Preview
-![ginpreview.png](https://github.com/mafezoli/dotfiles/blob/main/previews/ginpreview.png)
+![lainpreview.png](https://github.com/mafezoli/dotfiles/blob/main/previews/lainpreview.png)
