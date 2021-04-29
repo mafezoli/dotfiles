@@ -291,10 +291,10 @@ battery = BAT1
 adapter = ADP1
 full-at = 98
 
-format-charging = <ramp-capacity> 
+format-charging = <ramp-capacity>  <label-charging>
 ;format-charging-underline = #ffb52a
 
-format-discharging = <ramp-capacity> 
+format-discharging = <ramp-capacity>  <label-discharging>
 ;format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix =   
