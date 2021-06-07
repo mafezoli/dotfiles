@@ -18,4 +18,4 @@ Dotfiles for my bspwm setup on Arch Linux.
 | Image Viewer    | [feh (Website)](https://feh.finalrewind.org/)   | A fast and light image viewer aimed mostly at console users.   |
 
 ## Preview
-![lainpreview.png](https://github.com/mafezoli/dotfiles/blob/main/previews/lainpreview.png)
+![lainpreview.png](https://github.com/mafezoli/dotfiles/blob/master/previews/lainpreview.png)
