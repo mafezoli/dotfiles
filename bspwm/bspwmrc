@@ -1,15 +1,22 @@
 #!/usr/bin/sh
 
 SCRIPT=$HOME/.config/scripts/monitors.sh
-if [ -f $SCRIPT ]; then
-	sh $SCRIPT
-fi
+external_monitor=$(xrandr --query | grep 'disconnected')
 
 sxhkd &
-polybar pimpbar &
-feh --bg-scale ~/.config/wallpapers/lainroom.jpg &
 
-bspc monitor -d 一 二 三 四 五 六 七 八 九 十
+if [ -z $external_monitor ]; then
+	sh $SCRIPT
+	polybar pimpbar &
+	polybar smbar &
+	bspc monitor HDMI-1 -d 一 二
+	bspc monitor eDP-1 -d 三 四 五 六 七 八 九 十
+else
+	polybar pimpbar &
+	bspc monitor eDP-1 -d 一 二 三 四 五 六 七 八 九 十
+fi
+
+feh --bg-scale ~/.config/wallpapers/lainroom.jpg &
 
 bspc config border_width         4
 bspc config window_gap          20
