@@ -1,5 +1,10 @@
 #!/usr/bin/sh
 
+SCRIPT=$HOME/.config/scripts/monitors.sh
+if [ -f $SCRIPT ]; then
+	sh $SCRIPT
+fi
+
 sxhkd &
 polybar pimpbar &
 feh --bg-scale ~/.config/wallpapers/lainroom.jpg &
